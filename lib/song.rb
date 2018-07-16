@@ -8,5 +8,6 @@ class Song
     @artist = artist
   end
 end
+
 ninety_nine_problems = Song.new("99 Problems", "rap", "Jay-Z", "30")
 puts Songcount
