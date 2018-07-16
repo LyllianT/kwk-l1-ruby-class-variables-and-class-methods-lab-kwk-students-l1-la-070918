@@ -8,6 +8,9 @@ class Song
     @artist = artist
   end
 end
+def self.song_count
+  @@song_count
+end
 
 ninety_nine_problems = Song.new("99 Problems", "rap", "Jay-Z", "30")
-puts Songcount
+puts song_count
