@@ -9,7 +9,7 @@ class Song
   end
 end
 def self.song_count
-  @song_count
+  @song_count += 1
 end
 
 ninety_nine_problems = Song.new("99 Problems", "rap", "Jay-Z", "30")
