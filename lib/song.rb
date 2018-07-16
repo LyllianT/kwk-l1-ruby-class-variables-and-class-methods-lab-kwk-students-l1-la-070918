@@ -9,4 +9,4 @@ class Song
   end
 end
 ninety_nine_problems = Song.new("99 Problems", "rap", "Jay-Z", "30")
-puts Song.count
+puts Song_count
